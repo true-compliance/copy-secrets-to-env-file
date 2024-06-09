@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const fs = require('fs');
 
-const inputPrefix = "INPUT_ENV_";
+const inputPrefix = "ENV_";
 const fileName = core.getInput('file-name') || '.env';
 
 try {
