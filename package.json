@@ -1,0 +1,24 @@
+{
+  "name": "com.truecompliance.copy-secrets-to-env-file",
+  "version": "1.0.0",
+  "description": "Github Action to write Github Secrets into a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@work.github.com:true-compliance/copy-secrets-to-env-file.git"
+  },
+  "keywords": [
+    "action",
+    "env",
+    "envfile"
+  ],
+  "author": "Joao Tomaz",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}

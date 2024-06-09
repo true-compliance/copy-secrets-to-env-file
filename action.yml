@@ -1,0 +1,13 @@
+name: "Create a file based on Github Secrets"
+description: "This Project is an upgrade from https://github.com/ozaytsev86/create-env-file-action/"
+author: "Joao Tomaz"
+branding:
+  icon: "copy"
+  color: "blue"
+inputs:
+  file-name:
+    description: "Filename"
+    required: false
+runs:
+  using: "node20"
+  main: "index.js"
